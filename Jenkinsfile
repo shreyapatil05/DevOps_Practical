@@ -61,7 +61,7 @@ pipeline {
                         exit /b 1
                     )
 
-                    findstr /C:"<link rel=" style.css
+                    findstr /C:"<link rel=" index.html
 
                     echo Build completed successfully.
                 '''
