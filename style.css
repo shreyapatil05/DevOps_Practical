@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #333;
+}
+
+header {
+    background-color: #174a80;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 80%;
+    max-width: 750px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+h2 {
+    text-align: center;
+    color: #174a80;
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #174a80;
+}
+
+form > label:not(.option) {
+    display: block;
+    margin-top: 15px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.option {
+    display: block;
+    background-color: #f2f5f9;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #dce9f7;
+}
+
+.option input {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin-top: 30px;
+    background-color: #174a80;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d3158;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 18px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+}

@@ -1,11 +1,89 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examination App</title>
+    <title>Online Examination System</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+<header>
+    <h1>Online Examination System</h1>
+    <p>Welcome to the Online Examination Portal</p>
+</header>
+
+<div class="container">
+
+    <h2>Student Examination</h2>
+
+    <form>
+        <label>Student Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Roll Number:</label>
+        <input type="text" placeholder="Enter your roll number" required>
+
+        <h3>Question 1: What does HTML stand for?</h3>
+
+        <label class="option">
+            <input type="radio" name="q1" required>
+            Hyper Text Markup Language
+        </label>
+
+        <label class="option">
+            <input type="radio" name="q1">
+            High Text Machine Language
+        </label>
+
+        <label class="option">
+            <input type="radio" name="q1">
+            Hyperlinks Text Management Language
+        </label>
+
+        <h3>Question 2: Which language is used for styling web pages?</h3>
+
+        <label class="option">
+            <input type="radio" name="q2" required>
+            Python
+        </label>
+
+        <label class="option">
+            <input type="radio" name="q2">
+            CSS
+        </label>
+
+        <label class="option">
+            <input type="radio" name="q2">
+            Java
+        </label>
+
+        <h3>Question 3: Which tool is used for CI/CD?</h3>
+
+        <label class="option">
+            <input type="radio" name="q3" required>
+            Jenkins
+        </label>
+
+        <label class="option">
+            <input type="radio" name="q3">
+            MS Word
+        </label>
+
+        <label class="option">
+            <input type="radio" name="q3">
+            Paint
+        </label>
+
+        <button type="submit">Submit Examination</button>
+    </form>
+
+</div>
+
+<footer>
+    <p>Online Examination System | DevOps Practical</p>
+</footer>
+
 </body>
 </html>
